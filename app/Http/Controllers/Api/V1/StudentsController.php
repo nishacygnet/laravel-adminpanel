@@ -106,7 +106,7 @@ class StudentsController extends APIController
         $this->repository->delete($student);
 
         return $this->respond([
-            'message' => trans('alerts.backend.Students.deleted'),
+            'message' => trans('alerts.backend.students.deleted'),
         ]);
     }
 
