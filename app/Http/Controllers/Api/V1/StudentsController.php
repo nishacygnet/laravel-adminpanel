@@ -80,6 +80,7 @@ class StudentsController extends APIController
      */
     public function update(Request $request, Student $student)
     {
+
         $validation = $this->validateStudent($request);
 
         if ($validation->fails()) {
@@ -119,6 +120,7 @@ class StudentsController extends APIController
      */
     public function validateStudent(Request $request)
     {
+        //dd($request->first_name);
         $validation = Validator::make($request->all(), [
             'first_name' => 'required',
             'last_name'  => 'required',
