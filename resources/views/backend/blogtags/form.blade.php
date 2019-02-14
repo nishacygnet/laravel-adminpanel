@@ -13,7 +13,7 @@
         <div class="col-lg-10">
             <div class="control-group">
                 <label class="control control--checkbox">
-            @if(isset($blogtag->status) && !empty ($blogtag->status))
+            @if(isset($standards->status) && !empty ($standards->status))
                 {{ Form::checkbox('status', 1, true) }}
             @else
                 {{ Form::checkbox('status', 1, false) }}

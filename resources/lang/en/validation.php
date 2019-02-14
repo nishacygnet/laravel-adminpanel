@@ -222,6 +222,16 @@ return [
                     'answer'   => 'Answer',
                     'status'   => 'Status',
             ],
+            'student' => [
+                    'first_name' => 'First Name',
+                    'last_name'  => 'Last Name',
+                    'gender'     => 'Gender',
+                    'hobbies'    => 'Hobbies',
+                    'profile_picture' => 'Profile Picture',
+                    'standard'   => 'Standard',
+                    'select'   => 'Select'  
+
+            ]
         ],
 
         'frontend' => [
